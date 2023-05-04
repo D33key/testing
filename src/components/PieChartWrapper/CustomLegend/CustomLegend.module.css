@@ -1,0 +1,42 @@
+.legendWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.legendElement {
+    display: flex;
+    align-items: center;   
+    gap: 13px;
+    height: 40px;
+    transition: 0.3s ease;
+    padding: 5px 12px;
+}
+
+.activeLegendElement {
+    background-color: red;
+    background: #f5f7f9;
+    border-radius: 9px;
+}
+
+.rectColor {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.description{
+    margin-right: auto;
+}
+
+.percent{
+    flex-basis: 55px;
+}
+
+.count{
+    margin-right: 30px;
+}
+
+.legendElement span{
+    text-align: right;
+}

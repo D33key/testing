@@ -1,0 +1,23 @@
+.customTooltip {
+    background: #ffffff;
+
+    box-shadow: 0px 9px 48px rgba(45, 48, 61, 0.07);
+    border-radius: 12px;
+    padding: 14px 20px;
+}
+
+.intro {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #4f5e72;
+}
+
+.label {
+    color: #6f7e94;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 22px;
+}

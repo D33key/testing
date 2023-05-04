@@ -1,0 +1,14 @@
+.chartSwitcher {
+    padding: 5px 12px;
+    border: 1px solid #d0dee8;
+    border-radius: 11px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.active{
+    color: #1150CC;
+    border-color: #1150CC;
+}
