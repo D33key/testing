@@ -60,5 +60,8 @@ body {
     .line-chart-wrapper {
         max-width: 350px;
     }
+    .line-chart-wrapper .recharts-xAxis {
+        display: none;
+    }
 }
 
