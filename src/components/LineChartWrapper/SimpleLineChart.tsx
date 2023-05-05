@@ -46,7 +46,6 @@ const SimpleLineChart = ({ data }: ILineChart) => {
                     cursor={{ stroke: "#41C6FF", strokeDasharray: 5 }}
                     content={<CustomTooltip />}
                     wrapperStyle={{ outline: "none" }}
-                    allowEscapeViewBox={{ x: true, y: true }}
                 />
 
                 <Area
