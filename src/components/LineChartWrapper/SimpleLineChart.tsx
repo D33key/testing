@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import {
     Area,
     AreaChart,
@@ -6,7 +5,7 @@ import {
     ResponsiveContainer,
     Tooltip,
     XAxis,
-    YAxis,
+    YAxis
 } from "recharts";
 import { IData } from "../../types";
 import CustomTooltip from "./CustomTooltip";
