@@ -5,7 +5,7 @@ import PieChartWrapper from "./components/PieChartWrapper";
 import CustomButton from './ui/Button';
 
 function App() {
-    const [showAnotherChart, setShowAnotherChart] = useState(true);
+    const [showAnotherChart, setShowAnotherChart] = useState(false);
     const handleClick = () => {
         setShowAnotherChart(prev => !prev);
     }

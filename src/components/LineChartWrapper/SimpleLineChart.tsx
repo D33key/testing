@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import {
     Area,
     AreaChart,
@@ -40,11 +41,13 @@ const SimpleLineChart = ({ data }: ILineChart) => {
                     tickCount={9}
                     tick={{ fontSize: 13, dx: -20 }}
                 />
-                <CartesianGrid fill="#F5F7F9" strokeWidth={4} stroke="#fff" />
+
+                <CartesianGrid fill="#F5F7F9" strokeWidth={5} stroke="white" />
                 <Tooltip
                     cursor={{ stroke: "#41C6FF", strokeDasharray: 5 }}
                     content={<CustomTooltip />}
                     wrapperStyle={{ outline: "none" }}
+                    allowEscapeViewBox={{ x: true, y: true }}
                 />
 
                 <Area

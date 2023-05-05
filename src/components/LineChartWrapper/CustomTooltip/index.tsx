@@ -19,9 +19,8 @@ function CustomTooltip({
     active,
     payload,
     label,
-    viewBox,
 }: TooltipProps<ValueType, NameType>) {
-    if (active && payload && viewBox) {
+    if (active && payload) {
         const value = payload[0].value;
         const touristsLabel = getTouristsLabel(value);
         return (
